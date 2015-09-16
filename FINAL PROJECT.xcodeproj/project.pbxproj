@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A4102461BA979A50006CF5B /* learning.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2A4102451BA979A50006CF5B /* learning.jpg */; };
+		2A4102481BA97C720006CF5B /* Japanese.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4102471BA97C720006CF5B /* Japanese.swift */; };
+		2A41024A1BA97FC30006CF5B /* TranslatorToJapanese.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4102491BA97FC30006CF5B /* TranslatorToJapanese.swift */; };
 		2A570B481BA2DF2C007E1E77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A570B471BA2DF2C007E1E77 /* AppDelegate.swift */; };
 		2A570B4B1BA2DF2C007E1E77 /* FINAL_PROJECT.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2A570B491BA2DF2C007E1E77 /* FINAL_PROJECT.xcdatamodeld */; };
 		2A570B4D1BA2DF2C007E1E77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A570B4C1BA2DF2C007E1E77 /* ViewController.swift */; };
@@ -14,6 +17,7 @@
 		2A570B521BA2DF2D007E1E77 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A570B511BA2DF2D007E1E77 /* Images.xcassets */; };
 		2A570B551BA2DF2D007E1E77 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A570B531BA2DF2D007E1E77 /* LaunchScreen.xib */; };
 		2A570B611BA2DF2D007E1E77 /* FINAL_PROJECTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A570B601BA2DF2D007E1E77 /* FINAL_PROJECTTests.swift */; };
+		2ADC58B11BA6D637007EBD55 /* EnglishToJapaneseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC58B01BA6D637007EBD55 /* EnglishToJapaneseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A4102451BA979A50006CF5B /* learning.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = learning.jpg; sourceTree = "<group>"; };
+		2A4102471BA97C720006CF5B /* Japanese.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Japanese.swift; sourceTree = "<group>"; };
+		2A4102491BA97FC30006CF5B /* TranslatorToJapanese.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TranslatorToJapanese.swift; sourceTree = "<group>"; };
 		2A570B421BA2DF2C007E1E77 /* FINAL PROJECT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FINAL PROJECT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A570B461BA2DF2C007E1E77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A570B471BA2DF2C007E1E77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +45,7 @@
 		2A570B5A1BA2DF2D007E1E77 /* FINAL PROJECTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FINAL PROJECTTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A570B5F1BA2DF2D007E1E77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A570B601BA2DF2D007E1E77 /* FINAL_PROJECTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FINAL_PROJECTTests.swift; sourceTree = "<group>"; };
+		2ADC58B01BA6D637007EBD55 /* EnglishToJapaneseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnglishToJapaneseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +69,11 @@
 		2A570B391BA2DF2C007E1E77 = {
 			isa = PBXGroup;
 			children = (
+				2A4102491BA97FC30006CF5B /* TranslatorToJapanese.swift */,
 				2A570B441BA2DF2C007E1E77 /* FINAL PROJECT */,
 				2A570B5D1BA2DF2D007E1E77 /* FINAL PROJECTTests */,
 				2A570B431BA2DF2C007E1E77 /* Products */,
+				2A4102451BA979A50006CF5B /* learning.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +95,8 @@
 				2A570B511BA2DF2D007E1E77 /* Images.xcassets */,
 				2A570B531BA2DF2D007E1E77 /* LaunchScreen.xib */,
 				2A570B491BA2DF2C007E1E77 /* FINAL_PROJECT.xcdatamodeld */,
+				2A4102471BA97C720006CF5B /* Japanese.swift */,
+				2ADC58B01BA6D637007EBD55 /* EnglishToJapaneseViewController.swift */,
 				2A570B451BA2DF2C007E1E77 /* Supporting Files */,
 			);
 			path = "FINAL PROJECT";
@@ -198,6 +210,7 @@
 				2A570B501BA2DF2D007E1E77 /* Main.storyboard in Resources */,
 				2A570B551BA2DF2D007E1E77 /* LaunchScreen.xib in Resources */,
 				2A570B521BA2DF2D007E1E77 /* Images.xcassets in Resources */,
+				2A4102461BA979A50006CF5B /* learning.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +231,9 @@
 				2A570B4D1BA2DF2C007E1E77 /* ViewController.swift in Sources */,
 				2A570B4B1BA2DF2C007E1E77 /* FINAL_PROJECT.xcdatamodeld in Sources */,
 				2A570B481BA2DF2C007E1E77 /* AppDelegate.swift in Sources */,
+				2A41024A1BA97FC30006CF5B /* TranslatorToJapanese.swift in Sources */,
+				2A4102481BA97C720006CF5B /* Japanese.swift in Sources */,
+				2ADC58B11BA6D637007EBD55 /* EnglishToJapaneseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +431,7 @@
 				2A570B661BA2DF2D007E1E77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A570B671BA2DF2D007E1E77 /* Build configuration list for PBXNativeTarget "FINAL PROJECTTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +440,7 @@
 				2A570B691BA2DF2D007E1E77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
