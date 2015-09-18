@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A0FE4A51BAC1E100005E550 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0FE4A41BAC1E100005E550 /* StartViewController.swift */; };
 		2A4102461BA979A50006CF5B /* learning.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2A4102451BA979A50006CF5B /* learning.jpg */; };
 		2A4102481BA97C720006CF5B /* Japanese.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4102471BA97C720006CF5B /* Japanese.swift */; };
 		2A41024A1BA97FC30006CF5B /* TranslatorToJapanese.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4102491BA97FC30006CF5B /* TranslatorToJapanese.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A0FE4A41BAC1E100005E550 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		2A4102451BA979A50006CF5B /* learning.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = learning.jpg; sourceTree = "<group>"; };
 		2A4102471BA97C720006CF5B /* Japanese.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Japanese.swift; sourceTree = "<group>"; };
 		2A4102491BA97FC30006CF5B /* TranslatorToJapanese.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TranslatorToJapanese.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				2A570B491BA2DF2C007E1E77 /* FINAL_PROJECT.xcdatamodeld */,
 				2A4102471BA97C720006CF5B /* Japanese.swift */,
 				2ADC58B01BA6D637007EBD55 /* EnglishToJapaneseViewController.swift */,
+				2A0FE4A41BAC1E100005E550 /* StartViewController.swift */,
 				2A570B451BA2DF2C007E1E77 /* Supporting Files */,
 			);
 			path = "FINAL PROJECT";
@@ -229,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A570B4D1BA2DF2C007E1E77 /* ViewController.swift in Sources */,
+				2A0FE4A51BAC1E100005E550 /* StartViewController.swift in Sources */,
 				2A570B4B1BA2DF2C007E1E77 /* FINAL_PROJECT.xcdatamodeld in Sources */,
 				2A570B481BA2DF2C007E1E77 /* AppDelegate.swift in Sources */,
 				2A41024A1BA97FC30006CF5B /* TranslatorToJapanese.swift in Sources */,

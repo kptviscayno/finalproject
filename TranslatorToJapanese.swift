@@ -34,4 +34,5 @@ class TranslatorToJapanese: NSManagedObject {
         self.japanese = Japanese
 
     }
+    
 }

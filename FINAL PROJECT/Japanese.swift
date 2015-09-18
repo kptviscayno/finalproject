@@ -15,7 +15,7 @@ class Japanese {
         self.English = "Hi"
     }
     
-    //func TranslateGoGo(Japanese : String) -> (String){
+   // func TranslateGoGo(Japanese : String) -> (String){
         
         
     //}
